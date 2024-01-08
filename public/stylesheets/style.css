@@ -4,13 +4,26 @@ body {
 
 .container .sun {
   position: absolute;
-  top: 100px;
-  left: 200px;
   border-radius: 100%;
   width: 200px;
   height: 200px;
   background-color: rgb(242, 255, 0);
   border: 5px solid rgb(255, 166, 0);
+}
+.container .pos1 {
+  top: 100px;
+  left: 200px;
+  transition: 1s;
+}
+.container .pos2 {
+  top: 100px;
+  left: 500px;
+  transition: 1s;
+}
+.container .pos3 {
+  top: 100px;
+  left: 800px;
+  transition: 1s;
 }
 .container .disable {
   background-color: rgb(86, 86, 86);
@@ -38,4 +51,32 @@ body {
 }
 .container .panel .red {
   background-color: red;
+}
+.container .panel .move {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.container .panel .move .arrow {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgb(65, 65, 65);
+  cursor: pointer;
+}
+.container .panel .move .arrow:hover {
+  background-color: white;
+}
+.container .panel .move .arrow * {
+  width: 50px;
+  height: 50px;
+}
+.container .panel .move .disable {
+  background-color: rgb(65, 65, 65);
+  cursor: auto;
+}
+.container .panel .move .disable:hover {
+  background-color: rgb(65, 65, 65);
+}
+.container .panel .move .arrow2 {
+  rotate: 180deg;
 }/*# sourceMappingURL=style.css.map */
