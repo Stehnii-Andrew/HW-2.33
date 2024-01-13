@@ -79,4 +79,15 @@ body {
 }
 .container .panel .move .arrow2 {
   rotate: 180deg;
+}
+.container .houses {
+  display: flex;
+  position: absolute;
+  left: 200px;
+  top: 400px;
+  gap: 100px;
+}
+.container .houses img {
+  width: 200px;
+  height: 200px;
 }/*# sourceMappingURL=style.css.map */

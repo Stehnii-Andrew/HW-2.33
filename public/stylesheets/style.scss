@@ -97,4 +97,17 @@ body {
       }
     }
   }
+
+  .houses {
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    gap: 100px;
+
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
 }
